@@ -36,7 +36,10 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 # ScreenShots
 <!-- ## Home Page -->
-![Home Page](public/ss-home.png)
+![Home Page](photo6.png)
 ---
 <!-- ## Signup Page -->
-![Signup Page](public/ss-signup.png)
+![Signup Page](photo4.png)
+
+<!-- ## SignIn Page -->
+![Signup Page](photo5.png)
