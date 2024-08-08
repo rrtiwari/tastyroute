@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.set('strictQuery', true);
 // const mongoDbClient = require("mongodb").MongoClient
-const mongoURI = 'mongodb+srv://itsroshantiwari246:EbB3ypk2BBn5jBA5@cluster0.pl6uwhz.mongodb.net/deliciousapp?retryWrites=true&w=majority&appName=Cluster0' // Customer change url to your db you created in atlas
+const mongoURI = 'mongodb+srv://itsroshantiwari46:EbB3ypk2BBn5jBA5@cluster0.pl6uwhz.mongodb.net/deliciousapp?retryWrites=true&w=majority&appName=Cluster0' // Customer change url to your db you created in atlas
 // mongodb://<username>:<password>@merncluster-shard-00-00.d1d4z.mongodb.net:27017,merncluster-shard-00-01.d1d4z.mongodb.net:27017,merncluster-shard-00-02.d1d4z.mongodb.net:27017/?ssl=true&replicaSet=atlas-eusy5p-shard-0&authSource=admin&retryWrites=true&w=majority
 module.exports = function (callback) {
     mongoose.connect(mongoURI, { useNewUrlParser: true }, async (err, result) => {
